@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name             = "HyperMark"
-  spec.version          = "1.0.1"
+  spec.version          = "1.0.2"
   spec.summary          = "A Swift powered HTML generator for web pages and HTML components."
 
   spec.description      = <<-DESC

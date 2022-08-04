@@ -13,6 +13,18 @@ public struct HtmlTag: Renderable {
     public let text: String?
     public var nestedTags: [Renderable] = []
     
+    public init(name: String, text: String? = nil) {
+        self.name = name
+        self.text = text
+    }
+    
+    public init(name: String, attributes: [String: String] = [:], text: String? = nil, nestedTags: [Renderable] = []) {
+        self.name = name
+        self.attributes = attributes
+        self.text = text
+        self.nestedTags = nestedTags
+    }
+    
     public mutating func addAttribute(key: String, value: String) {
         attributes[key] = value
     }

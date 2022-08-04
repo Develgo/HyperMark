@@ -21,6 +21,10 @@ public struct HtmlPage: Renderable {
         return tag
     }()
     
+    public init(title: String) {
+        self.title = title
+    }
+    
     public func render() -> String {
         let doc = """
             <!DOCTYPE html>
