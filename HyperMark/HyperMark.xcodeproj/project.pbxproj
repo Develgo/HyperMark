@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B078411A289AD996002DE9BE /* HyperMark.docc in Sources */ = {isa = PBXBuildFile; fileRef = B0784119289AD996002DE9BE /* HyperMark.docc */; };
+		B0784120289AD997002DE9BE /* HyperMark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0784115289AD996002DE9BE /* HyperMark.framework */; };
+		B0784125289AD997002DE9BE /* HtmlPageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0784124289AD997002DE9BE /* HtmlPageTests.swift */; };
+		B0784126289AD997002DE9BE /* HyperMark.h in Headers */ = {isa = PBXBuildFile; fileRef = B0784118289AD996002DE9BE /* HyperMark.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0784131289ADA2D002DE9BE /* HtmlPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0784130289ADA2D002DE9BE /* HtmlPage.swift */; };
+		B0784136289B2B30002DE9BE /* HtmlTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0784135289B2B30002DE9BE /* HtmlTag.swift */; };
+		B0784138289B9F1E002DE9BE /* HtmlTagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0784137289B9F1E002DE9BE /* HtmlTagTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0784121289AD997002DE9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B078410C289AD996002DE9BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0784114289AD996002DE9BE;
+			remoteInfo = HyperMark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0784115289AD996002DE9BE /* HyperMark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HyperMark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0784118289AD996002DE9BE /* HyperMark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HyperMark.h; sourceTree = "<group>"; };
+		B0784119289AD996002DE9BE /* HyperMark.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = HyperMark.docc; sourceTree = "<group>"; };
+		B078411F289AD997002DE9BE /* HyperMarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyperMarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0784124289AD997002DE9BE /* HtmlPageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HtmlPageTests.swift; sourceTree = "<group>"; };
+		B0784130289ADA2D002DE9BE /* HtmlPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HtmlPage.swift; sourceTree = "<group>"; };
+		B0784135289B2B30002DE9BE /* HtmlTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HtmlTag.swift; sourceTree = "<group>"; };
+		B0784137289B9F1E002DE9BE /* HtmlTagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HtmlTagTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0784112289AD996002DE9BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B078411C289AD997002DE9BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0784120289AD997002DE9BE /* HyperMark.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B078410B289AD996002DE9BE = {
+			isa = PBXGroup;
+			children = (
+				B0784117289AD996002DE9BE /* HyperMark */,
+				B0784123289AD997002DE9BE /* HyperMarkTests */,
+				B0784116289AD996002DE9BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0784116289AD996002DE9BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0784115289AD996002DE9BE /* HyperMark.framework */,
+				B078411F289AD997002DE9BE /* HyperMarkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0784117289AD996002DE9BE /* HyperMark */ = {
+			isa = PBXGroup;
+			children = (
+				B0784132289B2912002DE9BE /* Elements */,
+				B078412F289ADA19002DE9BE /* Pages */,
+				B0784118289AD996002DE9BE /* HyperMark.h */,
+				B0784119289AD996002DE9BE /* HyperMark.docc */,
+			);
+			path = HyperMark;
+			sourceTree = "<group>";
+		};
+		B0784123289AD997002DE9BE /* HyperMarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0784124289AD997002DE9BE /* HtmlPageTests.swift */,
+				B0784137289B9F1E002DE9BE /* HtmlTagTests.swift */,
+			);
+			path = HyperMarkTests;
+			sourceTree = "<group>";
+		};
+		B078412F289ADA19002DE9BE /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				B0784130289ADA2D002DE9BE /* HtmlPage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		B0784132289B2912002DE9BE /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				B0784135289B2B30002DE9BE /* HtmlTag.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B0784110289AD996002DE9BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0784126289AD997002DE9BE /* HyperMark.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B0784114289AD996002DE9BE /* HyperMark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0784129289AD997002DE9BE /* Build configuration list for PBXNativeTarget "HyperMark" */;
+			buildPhases = (
+				B0784110289AD996002DE9BE /* Headers */,
+				B0784111289AD996002DE9BE /* Sources */,
+				B0784112289AD996002DE9BE /* Frameworks */,
+				B0784113289AD996002DE9BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HyperMark;
+			productName = HyperMark;
+			productReference = B0784115289AD996002DE9BE /* HyperMark.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B078411E289AD997002DE9BE /* HyperMarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B078412C289AD997002DE9BE /* Build configuration list for PBXNativeTarget "HyperMarkTests" */;
+			buildPhases = (
+				B078411B289AD997002DE9BE /* Sources */,
+				B078411C289AD997002DE9BE /* Frameworks */,
+				B078411D289AD997002DE9BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0784122289AD997002DE9BE /* PBXTargetDependency */,
+			);
+			name = HyperMarkTests;
+			productName = HyperMarkTests;
+			productReference = B078411F289AD997002DE9BE /* HyperMarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B078410C289AD996002DE9BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B0784114289AD996002DE9BE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B078411E289AD997002DE9BE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B078410F289AD996002DE9BE /* Build configuration list for PBXProject "HyperMark" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B078410B289AD996002DE9BE;
+			productRefGroup = B0784116289AD996002DE9BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0784114289AD996002DE9BE /* HyperMark */,
+				B078411E289AD997002DE9BE /* HyperMarkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0784113289AD996002DE9BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B078411D289AD997002DE9BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0784111289AD996002DE9BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B078411A289AD996002DE9BE /* HyperMark.docc in Sources */,
+				B0784136289B2B30002DE9BE /* HtmlTag.swift in Sources */,
+				B0784131289ADA2D002DE9BE /* HtmlPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B078411B289AD997002DE9BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0784125289AD997002DE9BE /* HtmlPageTests.swift in Sources */,
+				B0784138289B9F1E002DE9BE /* HtmlTagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0784122289AD997002DE9BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0784114289AD996002DE9BE /* HyperMark */;
+			targetProxy = B0784121289AD997002DE9BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B0784127289AD997002DE9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0784128289AD997002DE9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B078412A289AD997002DE9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 39AUS3S3FV;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.develgo.HyperMark;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B078412B289AD997002DE9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 39AUS3S3FV;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.develgo.HyperMark;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B078412D289AD997002DE9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39AUS3S3FV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.develgo.HyperMarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B078412E289AD997002DE9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39AUS3S3FV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.develgo.HyperMarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B078410F289AD996002DE9BE /* Build configuration list for PBXProject "HyperMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0784127289AD997002DE9BE /* Debug */,
+				B0784128289AD997002DE9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0784129289AD997002DE9BE /* Build configuration list for PBXNativeTarget "HyperMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B078412A289AD997002DE9BE /* Debug */,
+				B078412B289AD997002DE9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B078412C289AD997002DE9BE /* Build configuration list for PBXNativeTarget "HyperMarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B078412D289AD997002DE9BE /* Debug */,
+				B078412E289AD997002DE9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B078410C289AD996002DE9BE /* Project object */;
+}
